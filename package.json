@@ -1,7 +1,7 @@
 {
   "name": "test-site-dc9111",
   "version": "0.1.0",
-  "homepage": "https://ban1ya.github.io",
+  "homepage": "https://b4n1y4.github.io",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
