@@ -11,6 +11,7 @@ import team from "./team";
 import Footer from "./Footer";
 
 const Home = () => {
+  document.getElementById("bmc-wbtn").style.zIndex = "9998";
   return (
     <>
       <div className="page-content">

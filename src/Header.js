@@ -7,6 +7,11 @@ const Header = () => {
   const [isMenuOpen, setISMenuOpen] = useState(false);
   const handleClick = (e) => {
     setISMenuOpen(!isMenuOpen);
+    if (isMenuOpen) {
+      document.getElementById("root").style.overflowY = "scroll";
+    } else {
+      document.getElementById("root").style.overflowY = "hidden";
+    }
   };
   const closeMenu = () => {
     const timeout = setTimeout(() => {
