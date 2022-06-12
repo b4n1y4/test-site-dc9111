@@ -1,0 +1,14 @@
+.shop {
+  height: calc(100vh - 80px);
+  /* background-color: #fff; */
+}
+
+.shop-coming-soon {
+  font-size: 2rem;
+  text-align: center;
+  line-height: 2rem;
+}
+
+.accent{
+  color: rgb(154, 192, 4);
+}
