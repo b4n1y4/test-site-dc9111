@@ -16,6 +16,7 @@ const Header = () => {
   const closeMenu = () => {
     const timeout = setTimeout(() => {
       setISMenuOpen(false);
+      document.getElementById("root").style.overflowY = "scroll";
     }, 100);
   };
   return (
