@@ -29,12 +29,12 @@ export default [
     role: "Advisory",
     imgURL: require("./assets/img/MK.jpg"),
   },
-  {
-    id: "hardeep",
-    name: "Hardeep Singh",
-    role: "Team CTF Lead",
-    imgURL: require("./assets/img/HS.png"),
-  },
+  // {
+  //   id: "hardeep",
+  //   name: "Hardeep Singh",
+  //   role: "Team CTF Lead",
+  //   imgURL: require("./assets/img/HS.png"),
+  // },
   {
     id: "aditya",
     name: "Aditya Nama",

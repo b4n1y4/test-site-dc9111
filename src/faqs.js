@@ -46,7 +46,7 @@ export default [
   },
   {
     id: "9",
-    q: "I am from a non-technical background but intrested in security, what should I do?",
+    q: "I am from a non-technical background but interested in security, what should I do?",
     a: "We are open to all. All you need is interest and determination. This domain will not ask you to be technical person from scratch.",
   },
 ];
