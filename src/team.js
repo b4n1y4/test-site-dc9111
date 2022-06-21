@@ -1,4 +1,4 @@
-export default [
+const team = [
   {
     id: "tx",
     name: "TX",
@@ -42,3 +42,5 @@ export default [
     imgURL: require("./assets/img/AN.jpg"),
   },
 ];
+
+export default team;

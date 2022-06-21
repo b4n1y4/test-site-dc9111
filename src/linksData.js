@@ -14,7 +14,7 @@ import {
 
 import { SiBuymeacoffee, SiMedium } from "react-icons/si";
 
-export default [
+const linksData = [
   {
     Name: "Facebook",
     URL: "https://www.facebook.com/dc9111",
@@ -127,3 +127,5 @@ export default [
     Text_Color: "#ffffff",
   },
 ];
+
+export default linksData;

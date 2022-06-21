@@ -6,7 +6,6 @@ import Volunteers from "./Volunteers";
 import Faq from "./Faq";
 import Coc from "./Coc";
 import Links from "./Links";
-import Footer from "./Footer";
 import Shop from "./Shop";
 
 function App() {

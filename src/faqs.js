@@ -1,4 +1,4 @@
-export default [
+const faqs = [
   {
     id: "0",
     q: "What is DC9111?",
@@ -50,3 +50,5 @@ export default [
     a: "We are open to all. All you need is interest and determination. This domain will not ask you to be technical person from scratch.",
   },
 ];
+
+export default faqs;

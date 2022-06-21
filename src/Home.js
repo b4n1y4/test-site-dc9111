@@ -3,8 +3,7 @@ import React from "react";
 import {
   FaEnvelope,
   FaTwitter,
-  FaFacebookMessenger,
-  FaFacebookF,
+  FaFacebookMessenger
 } from "react-icons/fa";
 
 import team from "./team";

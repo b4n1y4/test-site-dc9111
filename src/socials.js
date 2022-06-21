@@ -6,7 +6,7 @@ import {
   FaLinkedinIn,
 } from "react-icons/fa";
 
-export default [
+const socials = [
   {
     url: "https://www.facebook.com/dc9111",
     icon: <FaFacebookF />,
@@ -28,3 +28,5 @@ export default [
     icon: <FaLinkedinIn />,
   },
 ];
+
+export default socials;

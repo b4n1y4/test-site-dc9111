@@ -1,4 +1,4 @@
-export default [
+const volunteerList = [
   {
     name: "Ananya Mishra",
     imgURL: require("./assets/img/AM.jpg"),
@@ -56,3 +56,5 @@ export default [
     imgURL: require("./assets/img/bj.jpg"),
   },
 ];
+
+export default volunteerList;
