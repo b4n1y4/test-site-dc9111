@@ -55,10 +55,6 @@ const volunteerList = [
     name: "Bipul Jaiswal",
     imgURL: require("./assets/img/bj.jpg"),
   },
-  {
-    name: "None",
-    img: "",
-  },
 ];
 
 export default volunteerList;
