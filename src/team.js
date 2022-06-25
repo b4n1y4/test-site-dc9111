@@ -29,12 +29,12 @@ const team = [
     role: "Advisory",
     imgURL: require("./assets/img/MK.jpg"),
   },
-  // {
-  //   id: "hardeep",
-  //   name: "Hardeep Singh",
-  //   role: "Team CTF Lead",
-  //   imgURL: require("./assets/img/HS.png"),
-  // },
+  {
+    id: "aditya_rai",
+    name: "Aditya Rai",
+    role: "Team CTF Lead",
+    imgURL: require("./assets/img/AR.jpeg"),
+  },
   {
     id: "aditya",
     name: "Aditya Nama",
