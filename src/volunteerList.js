@@ -40,10 +40,6 @@ const volunteerList = [
     imgURL: require("./assets/img/ay.png"),
   },
   {
-    name: "Parth Gol",
-    imgURL: require("./assets/img/pg.png"),
-  },
-  {
     name: "Sarthak Misraa",
     imgURL: require("./assets/img/sm.png"),
   },
