@@ -18,6 +18,10 @@ body {
   height: 100vh;
 }
 
+*::selection {
+  background: none;
+}
+
 header {
   position: relative;
   display: grid;
@@ -107,6 +111,11 @@ header {
   color: rgb(203, 203, 203);
   font-size: 1.15rem;
   margin-left: 0.5rem;
+}
+
+.subtitle::selection,
+.section-text::selection {
+  color: rgb(154, 192, 4);
 }
 
 .register {
