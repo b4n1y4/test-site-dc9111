@@ -1,16 +1,11 @@
 import React from "react";
 
-import {
-  FaEnvelope,
-  FaTwitter,
-  FaFacebookMessenger
-} from "react-icons/fa";
+import { FaEnvelope, FaTwitter, FaFacebookMessenger } from "react-icons/fa";
 
 import team from "./team";
 import Footer from "./Footer";
 
 const Home = () => {
-  document.getElementById("bmc-wbtn").style.zIndex = "9998";
   return (
     <>
       <div className="page-content">
