@@ -28,6 +28,7 @@ header {
   place-items: center;
   border-bottom: 1px dotted rgb(130, 130, 130);
   z-index: 2;
+  background-color: #111;
 }
 
 .header-contents {
@@ -43,6 +44,7 @@ header {
 
 .logo {
   width: 4rem;
+  height: 4rem;
   margin: auto;
   border-radius: 100%;
   margin-top: 10px;
@@ -87,6 +89,7 @@ header {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  background-color: #111;
 }
 
 .title {

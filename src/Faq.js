@@ -3,6 +3,7 @@ import React from "react";
 import faqs from "./faqs";
 import Footer from "./Footer";
 
+
 const Faq = () => {
   return (
     <>
