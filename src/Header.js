@@ -4,9 +4,10 @@ import { Link } from "react-router-dom";
 import logo from "./assets/img/logo.png";
 
 const Header = () => {
-  const [isMenuOpen, setISMenuOpen] = useState(false);
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+
   const handleClick = (e) => {
-    setISMenuOpen(!isMenuOpen);
+    setIsMenuOpen(!isMenuOpen);
     if (isMenuOpen) {
       document.getElementById("root").style.overflowY = "scroll";
     } else {
@@ -15,7 +16,7 @@ const Header = () => {
   };
   const closeMenu = () => {
     setTimeout(() => {
-      setISMenuOpen(false);
+      setIsMenuOpen(false);
       document.getElementById("root").style.overflowY = "scroll";
     }, 100);
   };

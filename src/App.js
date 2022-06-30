@@ -1,3 +1,4 @@
+import { useState } from "react";
 import { Routes, Route, BrowserRouter as Router } from "react-router-dom";
 
 import Particles from "react-tsparticles";
@@ -16,10 +17,6 @@ function App() {
     await loadFull(main);
   };
 
-  const particlesLoaded = (container) => {
-    console.log(container);
-  };
-
   return (
     <>
       <Router>
@@ -27,7 +24,6 @@ function App() {
         <Particles
           id="tsparticles"
           init={particlesInit}
-          loaded={particlesLoaded}
           options={{
             fpsLimit: 60,
             interactivity: {
@@ -89,7 +85,6 @@ function App() {
 
               shape: {
                 type: "circle",
-                
               },
 
               size: {

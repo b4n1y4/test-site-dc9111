@@ -29,6 +29,8 @@ header {
   border-bottom: 1px dotted rgb(130, 130, 130);
   z-index: 2;
   background-color: #111;
+  position: fixed;
+  width: 100%;
 }
 
 .header-contents {
@@ -79,9 +81,11 @@ header {
   width: 100%;
   display: grid;
   place-items: center;
+  
 }
 
 .page-content {
+  margin-top: 70px;
   width: 75%;
   max-width: 900px;
   min-width: 300px;
