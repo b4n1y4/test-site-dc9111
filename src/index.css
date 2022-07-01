@@ -81,7 +81,6 @@ header {
   width: 100%;
   display: grid;
   place-items: center;
-  
 }
 
 .page-content {
@@ -388,4 +387,23 @@ footer {
 
 .accent {
   color: rgb(154, 192, 4);
+}
+
+.item-container {
+  max-width: 400px;
+  min-width: 350px;
+  width: 40%;
+  /* background-color: #fff; */
+  margin: 0 auto;
+  z-index: 1;
+}
+
+.item-img {
+  width: 100%;
+  margin-bottom: 10px;
+  border-top: 2px solid rgb(154, 192, 4);
+  border-bottom: 2px solid rgb(154, 192, 4);
+  /* border-top: 2px solid white;
+  border-bottom: 2px solid white; */
+  padding: 10px 0;
 }

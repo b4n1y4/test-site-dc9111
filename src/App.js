@@ -1,4 +1,3 @@
-import { useState } from "react";
 import { Routes, Route, BrowserRouter as Router } from "react-router-dom";
 
 import Particles from "react-tsparticles";
@@ -80,7 +79,7 @@ function App() {
                 value: 40,
               },
               opacity: {
-                value: 0.5,
+                value: 0.2,
               },
 
               shape: {
@@ -93,6 +92,7 @@ function App() {
             },
             detectRetina: true,
           }}
+          style={{ zIndex: 0 }}
         />
         <div className="center-container">
           <Routes>
