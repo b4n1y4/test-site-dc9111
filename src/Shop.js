@@ -15,6 +15,7 @@ const Shop = () => {
             COMING<span className="accent"> SOON! </span>
           </h1>
         </div>
+        <hr />
       </div>
       <Footer />
     </>
