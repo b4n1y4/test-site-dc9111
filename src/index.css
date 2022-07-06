@@ -98,7 +98,7 @@ header {
 .title {
   font-weight: 500;
   color: #fff;
-  font-size: 1.25rem;
+  font-size: 1.5rem;
   margin-bottom: 1.25rem;
   line-height: 2rem;
 }
@@ -137,6 +137,9 @@ header {
 
 hr {
   margin-top: 3rem;
+  height: 1px;
+  background-color: #fff;
+  outline: none;
 }
 
 .team-slider {
@@ -254,7 +257,7 @@ footer {
     height: 48px;
   }
   .title {
-    font-size: 1.15rem;
+    font-size: 1.25rem;
     line-height: 1.5rem;
   }
   .section-text {
@@ -387,6 +390,15 @@ footer {
 
 .accent {
   color: rgb(154, 192, 4);
+}
+
+/* events page */
+
+.page-banner {
+  width: 100%;
+  border: 2px dashed #9ac0049d;
+  padding: 10px;
+  margin-bottom: 2rem;
 }
 
 .item-container {

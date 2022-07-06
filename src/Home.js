@@ -4,13 +4,14 @@ import { FaEnvelope, FaTwitter, FaFacebookMessenger } from "react-icons/fa";
 
 import team from "./team";
 import Footer from "./Footer";
+import Banner from "./assets/banners/event-banner.jpeg";
 
 const Home = () => {
   return (
     <>
       <div className="page-content">
         <h1 className="title">
-          DC9111 | 0x05 <br /> ---
+          DC9111 <br /> ---
         </h1>
         <h2 className="subtitle">For the Hackers, By the Hackers</h2>
         <section className="page-section">
@@ -26,6 +27,12 @@ const Home = () => {
         </section>
         <section className="page-section">
           <h1 className="section-title title">0x05</h1>
+          <img
+            src={Banner}
+            alt=""
+            className="page-banner"
+            style={{ zIndex: "1" }}
+          />
           <p className="section-text">
             DEF CON Delhi Group happens to be hosting India's biggest non profit
             <strong> FREE FOR ALL</strong> hacker events each year. This year in
@@ -37,7 +44,10 @@ const Home = () => {
             experience to all those who haven't yet experienced the same before.
           </p>
         </section>
-        <a href="https://defcon9111.org" className="register nav-link">
+        <a
+          href="https://www.linkedin.com/events/defcondelhigroup0x05event-in-pe6949976448707244032/"
+          className="register nav-link"
+        >
           Register here
         </a>
 
