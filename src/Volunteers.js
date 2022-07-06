@@ -3,7 +3,7 @@ import volunteers from "./volunteerList";
 import Footer from "./Footer";
 
 const Volunteers = () => {
-  document.title = "D C 9 1 1 1 | VOLUNTEERS";
+  document.title = "D C 9 1 1 1 | Volunteers";
 
   return (
     <>

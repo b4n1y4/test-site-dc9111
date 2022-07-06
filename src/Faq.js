@@ -4,7 +4,7 @@ import faqs from "./faqs";
 import Footer from "./Footer";
 
 const Faq = () => {
-  document.title = "D C 9 1 1 1 | FAQ";
+  document.title = "D C 9 1 1 1 | Faq";
 
   return (
     <>

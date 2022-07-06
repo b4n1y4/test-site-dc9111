@@ -3,7 +3,7 @@ import React from "react";
 import linkS from "./linksData";
 
 const Links = () => {
-  document.title = "D C 9 1 1 1 | LINKS";
+  document.title = "D C 9 1 1 1 | Links";
 
   return (
     <>

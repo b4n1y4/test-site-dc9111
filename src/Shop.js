@@ -5,7 +5,7 @@ import Footer from "./Footer";
 import t from "./assets/shop/tshirt.jpeg";
 
 const Shop = () => {
-  document.title = "D C 9 1 1 1 | SHOP";
+  document.title = "D C 9 1 1 1 | Shop";
 
   return (
     <>
