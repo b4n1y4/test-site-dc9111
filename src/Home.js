@@ -7,6 +7,7 @@ import Footer from "./Footer";
 import Banner from "./assets/banners/event-banner.jpeg";
 
 const Home = () => {
+  document.title = "D C 9 1 1 1";
   return (
     <>
       <div className="page-content">

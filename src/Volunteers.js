@@ -3,6 +3,8 @@ import volunteers from "./volunteerList";
 import Footer from "./Footer";
 
 const Volunteers = () => {
+  document.title = "D C 9 1 1 1 | VOLUNTEERS";
+
   return (
     <>
       <div className="page-content volunteers">

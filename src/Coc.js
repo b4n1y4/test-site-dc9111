@@ -3,6 +3,8 @@ import React from "react";
 import Footer from "./Footer";
 
 const Coc = () => {
+  document.title = "D C 9 1 1 1 | Code Of Conduct";
+
   return (
     <>
       <div className="page-content">
