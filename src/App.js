@@ -9,7 +9,7 @@ import Volunteers from "./Volunteers";
 import Faq from "./Faq";
 import Coc from "./Coc";
 import Links from "./Links";
-import Shop from "./Shop";
+// import Shop from "./Shop";
 
 function App() {
   const particlesInit = async (main) => {
