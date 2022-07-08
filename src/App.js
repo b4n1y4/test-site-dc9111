@@ -97,11 +97,11 @@ function App() {
         <div className="center-container">
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/shop" element={<Shop />} />
-            <Route path="/volunteers" element={<Volunteers />} />
-            <Route path="/faq" element={<Faq />} />
-            <Route path="/coc" element={<Coc />} />
-            <Route path="/links" element={<Links />} />
+            {/* <Route exact path="/shop" element={<Shop />} /> */}
+            <Route exact path="/volunteers" element={<Volunteers />} />
+            <Route exact path="/faq" element={<Faq />} />
+            <Route exact path="/coc" element={<Coc />} />
+            <Route exact path="/links" element={<Links />} />
           </Routes>
         </div>
       </Router>

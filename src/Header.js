@@ -31,10 +31,10 @@ const Header = () => {
             Home
           </Link>
           <span className="seperator">/</span>
-          <Link to="/shop" className="nav-link" onClick={() => closeMenu()}>
+          {/* <Link to="/shop" className="nav-link" onClick={() => closeMenu()}>
             Shop
           </Link>
-          <span className="seperator">/</span>
+          <span className="seperator">/</span> */}
           <Link
             to="/volunteers"
             className="nav-link"

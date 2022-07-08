@@ -401,7 +401,7 @@ footer {
   margin-bottom: 2rem;
 }
 
-.item-container {
+.shop-item {
   max-width: 400px;
   min-width: 350px;
   width: 40%;
@@ -410,12 +410,10 @@ footer {
   z-index: 1;
 }
 
-.item-img {
+.product-img {
   width: 100%;
   margin-bottom: 10px;
   border-top: 2px solid rgb(154, 192, 4);
   border-bottom: 2px solid rgb(154, 192, 4);
-  /* border-top: 2px solid white;
-  border-bottom: 2px solid white; */
   padding: 10px 0;
 }

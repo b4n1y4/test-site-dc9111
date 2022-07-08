@@ -10,11 +10,11 @@ const Shop = () => {
   return (
     <>
       <div className="page-content shop ">
-        <div className="item-container">
-          <img src={t} alt="0x05 tshirt" className="item-img" />
-          <h1 className="shop-coming-soon" style={{ color: "white" }}>
-            {/* <span className="accent">OFFICIAL</span> MERCH <br /> */}
-            COMING<span className="accent"> SOON! </span>
+        <div className="item-container ">
+          <img src={t} alt="" className="product-img" />
+          <h1 class="title shop-coming-soon">
+            <span className="accent">OFFICIAL</span> MERCH <br />
+            COMING <span className="accent">SOON!</span>
           </h1>
         </div>
         <hr />
