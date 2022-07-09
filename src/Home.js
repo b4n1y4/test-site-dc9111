@@ -44,13 +44,21 @@ const Home = () => {
             year our main goal will be to provide that in person hacker meetup
             experience to all those who haven't yet experienced the same before.
           </p>
+          <h1
+            className="title"
+            style={{ textAlign: "center", marginTop: "2rem" }}
+          >
+            <strong>
+              REGISTRATIONS <span className="accent">CLOSED!</span>
+            </strong>
+          </h1>
         </section>
-        <a
+        {/* <a
           href="https://www.linkedin.com/events/defcondelhigroup0x05event-in-pe6949976448707244032/"
           className="register nav-link"
         >
           Register here
-        </a>
+        </a> */}
 
         <hr />
 
