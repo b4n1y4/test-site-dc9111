@@ -182,7 +182,9 @@ hr {
   border-radius: 100%;
   margin-bottom: 2rem;
   box-shadow: 1px 1px 10px rgba(255, 255, 255, 0.3);
+  overflow: hidden;
 }
+
 
 p.name {
   font-size: 0.875rem;
@@ -322,6 +324,64 @@ footer {
   width: 200px;
   height: 200px;
   margin-right: 0;
+}
+
+.image-viewer {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: 3;
+}
+
+.overlay {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
+  align-items: center;
+  justify-content: space-around;
+  color: rgb(203, 203, 203);
+  /* padding: 1rem 5rem; */
+}
+
+.overlay .menu-icon {
+  margin-right: 1rem;
+  font-size: 2rem;
+  align-self: end;
+  cursor: pointer;
+}
+
+.img-container {
+  width: 50%;
+  max-width: 450px;
+  min-width: 300px;
+  max-height: 450px;
+  min-height: 300px;
+  overflow: hidden;
+  border: 2px dashed #9ac004;
+  padding: 1rem;
+}
+
+.pulse {
+  animation: pulse 0.5s ease-in-out;
+}
+
+.big-img {
+  width: 100%;
+  object-fit: cover;
+}
+
+@keyframes pulse {
+  from {
+    transform: scale(0.2);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
 }
 
 .title.f {

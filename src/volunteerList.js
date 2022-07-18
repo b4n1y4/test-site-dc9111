@@ -51,6 +51,22 @@ const volunteerList = [
     name: "Bipul Jaiswal",
     imgURL: require("./assets/img/bj.jpg"),
   },
+  {
+    name: "Mahima Bawa",
+    imgURL: require("./assets/img/mb.png"),
+  },
+  {
+    name: "Sneha Omar",
+    imgURL: require("./assets/img/so.png"),
+  },
+  {
+    name: "Simran Namdev",
+    imgURL: require("./assets/img/sn.png"),
+  },
+  {
+    name: "Naman Gandhi",
+    imgURL: require("./assets/img/ng.png"),
+  },
 ];
 
 export default volunteerList;
