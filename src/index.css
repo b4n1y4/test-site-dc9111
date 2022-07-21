@@ -182,7 +182,6 @@ hr {
   overflow: hidden;
 }
 
-
 p.name {
   font-size: 0.875rem;
   margin-bottom: 0.25rem;
@@ -453,20 +452,4 @@ footer {
   border: 2px dashed #9ac0049d;
   padding: 10px;
   margin-bottom: 2rem;
-}
-
-.shop-item {
-  max-width: 400px;
-  min-width: 350px;
-  width: 40%;
-  margin: 0 auto;
-  z-index: 1;
-}
-
-.product-img {
-  width: 100%;
-  margin-bottom: 10px;
-  border-top: 2px solid rgb(154, 192, 4);
-  border-bottom: 2px solid rgb(154, 192, 4);
-  padding: 10px 0;
 }
