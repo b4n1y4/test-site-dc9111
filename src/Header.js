@@ -43,10 +43,10 @@ const Header = () => {
             Volunteers
           </Link>
           <span className="seperator">/</span>
-          <a href="https://ctf.defcon9111.org" className="nav-link">
+          {/* <a href="https://ctf.defcon9111.org" className="nav-link">
             CTF
           </a>
-          <span className="seperator">/</span>
+          <span className="seperator">/</span> */}
           <Link to="/faq" className="nav-link" onClick={() => closeMenu()}>
             FAQ
           </Link>
