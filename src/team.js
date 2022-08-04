@@ -24,6 +24,12 @@ const team = [
     imgURL: require("./assets/img/AS.jpg"),
   },
   {
+    id: "sameep",
+    name: "Sameep Shukla",
+    role: "Graphic Designer",
+    imgURL: require("./assets/img/sash.jpg"),
+  },
+  {
     id: "mukul",
     name: "Mukul Kantiwal",
     role: "Advisory",
