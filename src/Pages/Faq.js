@@ -1,7 +1,7 @@
 import React from "react";
 
-import faqs from "./faqs";
-import Footer from "./Footer";
+import faqs from "../assets/data/faqs";
+import Footer from "../Components/Footer";
 
 const Faq = () => {
   document.title = "D C 9 1 1 1 | Faq";

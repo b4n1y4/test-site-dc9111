@@ -3,7 +3,7 @@ import { Routes, Route, BrowserRouter as Router } from "react-router-dom";
 import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
 
-import Header from "./Header";
+import Header from "../Components/Header";
 import Home from "./Home";
 import Volunteers from "./Volunteers";
 import Faq from "./Faq";

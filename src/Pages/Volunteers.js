@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import volunteers from "./volunteerList";
-import Footer from "./Footer";
-import ImageViewer from "./ImageViewer";
+import volunteers from "../assets/data/volunteerList";
+import Footer from "../Components/Footer";
+import ImageViewer from "../Components/ImageViewer";
 
 const Volunteers = () => {
   document.title = "D C 9 1 1 1 | Volunteers";

@@ -2,10 +2,10 @@ import React, { useState } from "react";
 
 import { FaEnvelope, FaTwitter, FaFacebookMessenger } from "react-icons/fa";
 
-import team from "./team";
-import Footer from "./Footer";
-import Banner from "./assets/banners/event-banner.jpeg";
-import ImageViewer from "./ImageViewer";
+import team from "../assets/data/team";
+import Footer from "../Components/Footer";
+import Banner from "../assets/banners/event-banner.jpeg";
+import ImageViewer from "../Components/ImageViewer";
 
 const Home = () => {
   document.title = "D C 9 1 1 1";

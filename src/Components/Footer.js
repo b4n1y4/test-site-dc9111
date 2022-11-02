@@ -1,6 +1,6 @@
 import React from "react";
 
-import socials from "./socials";
+import socials from "../assets/data/socials";
 
 const Footer = () => {
   return (

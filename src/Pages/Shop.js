@@ -1,8 +1,8 @@
 import React from "react";
 
-import Footer from "./Footer";
+import Footer from "../Components/Footer";
 
-import t from "./assets/shop/tshirt.jpeg";
+import t from "../assets/shop/tshirt.jpeg";
 
 const Shop = () => {
   document.title = "D C 9 1 1 1 | Shop";

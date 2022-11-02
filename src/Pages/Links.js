@@ -1,6 +1,6 @@
 import React from "react";
 
-import linkS from "./linksData";
+import linkS from "../assets/data/linksData";
 
 const Links = () => {
   document.title = "D C 9 1 1 1 | Links";
