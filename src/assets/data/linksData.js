@@ -118,14 +118,6 @@ const linksData = [
     Color: "#ffb142",
     Text_Color: "#ffffff",
   },
-
-  {
-    Name: "0x05",
-    URL: "/links",
-    icon: <FaLink />,
-    Color: "#ffb142",
-    Text_Color: "#ffffff",
-  },
 ];
 
 export default linksData;

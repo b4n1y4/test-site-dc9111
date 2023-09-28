@@ -43,24 +43,30 @@ const Volunteers = () => {
           ---
         </h1>
         <div className="vol-container">
-          {newVolunteers.map((volunteer) => {
-            return (
-              <div
-                className="card volunteer"
-                key={volunteer.name}
-                onClick={() => handleClick({ ...volunteer, show: true })}
-              >
-                <div className="avatar-container">
-                  <img
-                    src={volunteer.imgURL}
-                    alt={volunteer.name}
-                    className="avatar"
-                  />
+          {newVolunteers.length === 0 ? (
+            <h1 className="section-title title">
+              New Volunteer List COMING SOON!
+            </h1>
+          ) : (
+            newVolunteers.map((volunteer) => {
+              return (
+                <div
+                  className="card volunteer"
+                  key={volunteer.name}
+                  onClick={() => handleClick({ ...volunteer, show: true })}
+                >
+                  <div className="avatar-container">
+                    <img
+                      src={volunteer.imgURL}
+                      alt={volunteer.name}
+                      className="avatar"
+                    />
+                  </div>
+                  <p className="name">{volunteer.name}</p>
                 </div>
-                <p className="name">{volunteer.name}</p>
-              </div>
-            );
-          })}
+              );
+            })
+          )}
         </div>
         <hr />
       </div>

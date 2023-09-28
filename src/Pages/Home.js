@@ -4,7 +4,7 @@ import { FaEnvelope, FaTwitter, FaFacebookMessenger } from "react-icons/fa";
 
 import team from "../assets/data/team";
 import Footer from "../Components/Footer";
-import Banner from "../assets/banners/event-banner.jpeg";
+// import Banner from "../assets/banners/event-banner.jpeg";
 import ImageViewer from "../Components/ImageViewer";
 
 const Home = () => {
@@ -45,38 +45,24 @@ const Home = () => {
           </p>
         </section>
         <section className="page-section">
-          <h1 className="section-title title">0x05</h1>
-          <img
+          <h1 className="section-title title">0x06</h1>
+          {/* <img
             src={Banner}
             alt=""
             className="page-banner"
             style={{ zIndex: "1" }}
-          />
+          /> */}
           <p className="section-text">
             DEF CON Delhi Group happens to be hosting India's biggest non profit
             <strong> FREE FOR ALL</strong> hacker events each year. This year in
-            the DC9111 <strong>0x05</strong> offline event, the audience will
+            the DC9111 <strong>0x06</strong> offline event, the audience will
             get to level up yet again and that too in person! Listen to the top
             notch speakers speak on some of the hottest topics in the Cyber
             Security domain, enjoy FREE trainings and the CTF hosted by us. This
             year our main goal will be to provide that in person hacker meetup
             experience to all those who haven't yet experienced the same before.
           </p>
-          <h1
-            className="title"
-            style={{ textAlign: "center", marginTop: "2rem" }}
-          >
-            <strong>
-              REGISTRATIONS <span className="accent">CLOSED!</span>
-            </strong>
-          </h1>
         </section>
-        {/* <a
-          href="https://www.linkedin.com/events/defcondelhigroup0x05event-in-pe6949976448707244032/"
-          className="register nav-link"
-        >
-          Register here
-        </a> */}
 
         <hr />
 
