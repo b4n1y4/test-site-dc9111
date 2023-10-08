@@ -6,16 +6,16 @@ const team = [
     imgURL: require("../img/TX.jpg"),
   },
   {
-    id: "harsh",
-    name: "Harsh Trivedi",
-    role: "Web Developement Lead",
-    imgURL: require("../img/HT.jpeg"),
-  },
-  {
     id: "@b4n1y4",
     name: "Ritesh Gupta",
-    role: "Web Developer",
+    role: "Web Developement Lead",
     imgURL: require("../img/rg.jpg"),
+  },
+  {
+    id: "harsh",
+    name: "Harsh Trivedi",
+    role: "Web Developer",
+    imgURL: require("../img/HT.jpeg"),
   },
   {
     id: "mansi",
