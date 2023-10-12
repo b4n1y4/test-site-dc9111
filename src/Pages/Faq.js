@@ -4,7 +4,7 @@ import faqs from "../assets/data/faqs";
 import Footer from "../Components/Footer";
 
 const Faq = () => {
-  document.title = "D C 9 1 1 1 | Faq";
+  document.title = "D C 9 1 1 1 | FAQ";
 
   return (
     <>

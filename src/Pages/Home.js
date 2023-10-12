@@ -1,33 +1,14 @@
-import React, { useState } from "react";
+import React from "react";
 
 import { FaEnvelope, FaTwitter, FaFacebookMessenger } from "react-icons/fa";
 
-import team from "../assets/data/team";
 import Footer from "../Components/Footer";
-// import Banner from "../assets/banners/event-banner.jpeg";
-import ImageViewer from "../Components/ImageViewer";
 
 const Home = () => {
   document.title = "D C 9 1 1 1";
 
-  const [showImg, setShowImg] = useState({ show: false });
-
-  const handleClick = (obj) => {
-    setShowImg({ ...obj });
-    if (!showImg.show) {
-      document.getElementById("root").style.overflowY = "scroll";
-    } else {
-      document.getElementById("root").style.overflowY = "hidden";
-    }
-  };
-
   return (
     <>
-      {showImg.show ? (
-        <ImageViewer props={showImg} setShowImg={setShowImg} />
-      ) : (
-        ""
-      )}
       <div className="page-content">
         <h1 className="title">
           DC9111 <br /> ---
@@ -62,33 +43,6 @@ const Home = () => {
             year our main goal will be to provide that in person hacker meetup
             experience to all those who haven't yet experienced the same before.
           </p>
-        </section>
-
-        <hr />
-
-        <section className="page-section teams">
-          <h1 className="title">Team</h1>
-          <div className="slider-container">
-            <div className="team-slider">
-              {team.map((member) => {
-                return (
-                  <div
-                    className="card team"
-                    key={member.id}
-                    onClick={() => handleClick({ ...member, show: true })}
-                  >
-                    <img
-                      src={member.imgURL}
-                      alt={member.id}
-                      className="avatar"
-                    />
-                    <p className="name">{member.name}</p>
-                    <p className="role">[{member.role}]</p>
-                  </div>
-                );
-              })}
-            </div>
-          </div>
         </section>
 
         <hr />

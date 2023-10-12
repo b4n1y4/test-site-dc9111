@@ -31,16 +31,12 @@ const Header = () => {
             Home
           </Link>
           <span className="seperator">/</span>
-          {/* <Link to="/shop" className="nav-link" onClick={() => closeMenu()}>
-            Shop
-          </Link>
-          <span className="seperator">/</span> */}
           <Link
-            to="/volunteers"
+            to="/team"
             className="nav-link"
             onClick={() => closeMenu()}
           >
-            Volunteers
+            Team
           </Link>
           <span className="seperator">/</span>
           {/* <a href="https://ctf.defcon9111.org" className="nav-link">

@@ -5,11 +5,10 @@ import { loadFull } from "tsparticles";
 
 import Header from "../Components/Header";
 import Home from "./Home";
-import Volunteers from "./Volunteers";
+import Team from "./Team";
 import Faq from "./Faq";
 import Coc from "./Coc";
 import Links from "./Links";
-// import Shop from "./Shop";
 
 function App() {
   const particlesInit = async (main) => {
@@ -97,8 +96,7 @@ function App() {
         <div className="center-container">
           <Routes>
             <Route path="/" element={<Home />} />
-            {/* <Route exact path="/shop" element={<Shop />} /> */}
-            <Route exact path="/volunteers" element={<Volunteers />} />
+            <Route exact path="/Team" element={<Team />} />
             <Route exact path="/faq" element={<Faq />} />
             <Route exact path="/coc" element={<Coc />} />
             <Route exact path="/links" element={<Links />} />

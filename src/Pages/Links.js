@@ -8,6 +8,9 @@ const Links = () => {
   return (
     <>
       <div className="page-content">
+        <h1 className="title">
+          Links <br /> ---
+        </h1>
         <div className="links">
           {linkS.map((link) => {
             return (

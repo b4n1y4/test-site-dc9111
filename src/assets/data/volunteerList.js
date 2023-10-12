@@ -1,5 +1,130 @@
 const volunteerList = [
-
+  {
+    id: "1",
+    name: "Ananya Mishra",
+    imgURL: require("../img/AM.jpeg"),
+    linkedin: "http://linkedin.com/in/ananya--mishra",
+  },
+  {
+    id: "2",
+    name: "Mayank Malik",
+    imgURL: require("../img/MM.jpg"),
+    linkedin: "https://www.linkedin.com/in/mostwanted002/",
+  },
+  {
+    id: "3",
+    name: "M. Natiq Khan",
+    imgURL: require("../img/MNK.jpg"),
+    linkedin: "https://www.linkedin.com/in/mohammad-natiq-khan/",
+  },
+  {
+    id: "4",
+    name: "Akshat Kukreja",
+    imgURL: require("../img/AK.jpg"),
+    linkedin: "https://linkedin.com/in/akshat987",
+  },
+  {
+    id: "5",
+    name: "Aiswarya Priyadarshini",
+    imgURL: require("../img/AP.jpeg"),
+    linkedin: "https://www.linkedin.com/in/aiswarya-priyadarshini-9b077813b/",
+  },
+  {
+    id: "6",
+    name: "Anmol Sharma",
+    imgURL: require("../img/ASh.jpg"),
+    linkedin: "https://www.linkedin.com/in/anmolkz",
+  },
+  {
+    id: "7",
+    name: "Aditya Srivastava",
+    imgURL: require("../img/ASri.png"),
+    linkedin: "https://in.linkedin.com/in/adityasrivastava0703",
+  },
+  {
+    id: "8",
+    name: "Abhinav Yadav",
+    imgURL: require("../img/AY.jpg"),
+    linkedin: "https://www.linkedin.com/in/abhinav-yadav-121025230/",
+  },
+  {
+    id: "9",
+    name: "Diya Chaudhary",
+    imgURL: require("../img/DC.jpeg"),
+    linkedin: "http://www.linkedin.com/in/diya-chaudhary",
+  },
+  {
+    id: "10",
+    name: "Khyati Sharma",
+    imgURL: require("../img/KS.jpeg"),
+    linkedin: "https://linkedin.com/in/artsymaniac",
+  },
+  {
+    id: "11",
+    name: "Layee Joshi",
+    imgURL: require("../img/LJ.jpg"),
+    linkedin: "https://www.linkedin.com/in/layee-joshi-b4574a19b",
+  },
+  {
+    id: "12",
+    name: "Naman Gandhi",
+    imgURL: require("../img/NG.png"),
+    linkedin: "https://linkedin.com/in/hellonamangandhi",
+  },
+  {
+    id: "13",
+    name: "Oorja Gagan Singh",
+    imgURL: require("../img/OJS.png"),
+    linkedin: "https://www.linkedin.com/in/oorja-g-singh",
+  },
+  {
+    id: "14",
+    name: "Sakshi Bisht",
+    imgURL: require("../img/SB.jpeg"),
+    linkedin: "https://www.linkedin.com/in/sakshi-bisht-aa042516a",
+  },
+  {
+    id: "15",
+    name: "Shivam Saraswat",
+    imgURL: require("../img/SS.jpg"),
+    linkedin: "https://www.linkedin.com/in/shivamsaraswat",
+  },
+  {
+    id: "16",
+    name: "Ashwin Kr. Singh",
+    imgURL: require("../img/AKS.jpg"),
+    linkedin: "https://www.linkedin.com/in/ashwinksingh",
+  },
+  {
+    id: "aditya",
+    name: "Aditya Nama",
+    imgURL: require("../img/AN.png"),
+    linkedin: "http://www.linkedin.com/in/adiintify",
+  },
+  {
+    id: "@b4n1y4",
+    name: "Ritesh Gupta",
+    imgURL: require("../img/rg.jpg"),
+    linkedin: "https://linkedin.com/in/b4n1y4",
+  },
+  {
+    id: "harsh",
+    name: "Harsh Trivedi",
+    imgURL: require("../img/HT.jpeg"),
+    linkedin: "https://linkedin.com/in/harsh98trivedi",
+  },
+  {
+    id: "anushka",
+    name: "Anushka Soni",
+    imgURL: require("../img/AS.jpg"),
+    linkedin: "https://www.linkedin.com/in/anushka-soni-b86007154/",
+  },
+  {
+    id: "sameep",
+    name: "Sameep Shukla",
+    imgURL: require("../img/sash.jpg"),
+    linkedin: "https://www.linkedin.com/in/sameep-shukla-4a07bb201",
+  },
 ];
 
 export default volunteerList;
