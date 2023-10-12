@@ -73,7 +73,7 @@ const volunteerList = [
   },
   {
     id: "13",
-    name: "Oorja Gagan Singh",
+    name: "Oorja Ganga Singh",
     imgURL: require("../img/OJS.png"),
     linkedin: "https://www.linkedin.com/in/oorja-g-singh",
   },
