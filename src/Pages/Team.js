@@ -6,7 +6,7 @@ import ImageViewer from "../Components/ImageViewer";
 import Card from "./Card";
 
 const Team = () => {
-  document.title = "D C 9 1 1 1 | Volunteers";
+  document.title = "D C 9 1 1 1 | Team";
 
   const [showImg, setShowImg] = useState({ imgURL: "", name: "", show: false });
 
