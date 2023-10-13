@@ -7,8 +7,8 @@ const team = [
     linkedin: "https://www.linkedin.com/in/dotslashtx/",
   },
   {
-    id: "mansi",
-    name: "Mansi Jha",
+    id: "manasi",
+    name: "Manasi Jha",
     role: "Management Lead",
     imgURL: require("../img/MJ.png"),
     linkedin: "https://www.linkedin.com/in/manasijha/",
