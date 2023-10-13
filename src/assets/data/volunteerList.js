@@ -105,7 +105,7 @@ const volunteerList = [
     id: "@b4n1y4",
     name: "Ritesh Gupta",
     imgURL: require("../img/rg.jpg"),
-    linkedin: "https://linkedin.com/in/b4n1y4",
+    linkedin: "https://linkedin.com/in/r1t35h",
   },
   {
     id: "harsh",
